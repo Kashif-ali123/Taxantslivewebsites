@@ -1,0 +1,57 @@
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.7s linear;
+}
+.card{
+  width: 100%;
+  margin-left: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.card-body {
+  padding: 2rem 0 !important;
+  margin-top: 50px;
+  height: 420px !important;
+  background-color: #fff;
+  color: brown;
+  font-family: "Open Sans ", sans-serif;
+ 
+ 
+ 
+}
+
+.card-text {
+  padding: 0.3rem 1rem;
+  font-size: 18px;
+  color: brown;
+  font-family: "Open Sans ", sans-serif;
+}
+
+.overflow {
+  overflow: hidden;
+  width: 30%;
+  align-items: center;
+  margin-left: 210px;
+  margin-top: 30px;
+  
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+  width: 70%;
+  align-items: center;
+
+}
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}
+.hero{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}

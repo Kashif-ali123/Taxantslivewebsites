@@ -1,0 +1,6 @@
+import React from "react";
+const Spouse = () => {
+  return <div style={{marginBottom:"30px"}}>In general, claiming a non-resident spouse is more or less the same as claiming a resident spouse, as long as you have supported them during the year. Here’s a few things to know to make sure your claims go smoothly: To make your claim properly, you’ll need the correct documentation. The Canada Revenue Agency (CRA) needs proof that you’re in fact providing financial support to your spouse, so when payments are made, keep your documents together. The proof of payment you give to the CRA must include your name, the amount, the date of payment and your spouse’s name and address. The amount you pay to your other half must also be enough to be considered ongoing support – a small payment here or there doesn’t qualify. No matter how much or how little you send your spouse, they won’t qualify if they already have enough income or assistance for a reasonable standard of living in the other country. If your non-resident spouse or common-law partner has some income in your home country, it will also reduce the amount you can claim, even though the income is not reported on a Canadian tax return.</div>;
+};
+
+export default Spouse;

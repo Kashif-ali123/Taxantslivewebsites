@@ -1,0 +1,136 @@
+.navbar {
+  height: 14vh;
+  background: #000;
+  
+
+width: 100%;
+padding: 0;
+margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+width: 30rem;
+
+ 
+  margin-left: -20px;
+ margin-top: -55px;
+  /* vertical-align: middle; */
+  /* border: 0;
+  box-sizing: border-box; */
+
+}
+.logo{
+  color: #fff;
+}
+.nav-item ul{
+  margin-top: 20px;
+}
+.nav-item ul li{
+  width: 270px;
+  
+}
+
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 2rem;
+ margin-top: -50px;
+  z-index: 1;
+
+
+
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  /* height: vh; */
+
+  padding: 5px 16px;
+
+
+border-radius: 3px;
+
+  
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  /* font-size: 1.1rem; */
+  margin-right: 1rem;
+  padding: 4px 16px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Cambria ;
+
+/* display: flex; */
+display: inline-block;
+justify-content: space-between;
+
+
+
+
+
+
+
+
+}
+
+.nav-item a:hover {
+  background: red;
+  color:#fff;
+}
+
+
+
+.book{
+  
+  background: #000;
+
+color: #fff;
+justify-content: space-between;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.facebook{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.twitter{
+  margin-top: 20px;
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+.instagram{
+  margin-top: 20px;
+  font-size: 20px;
+  margin-right: 100px;
+  cursor: pointer;
+}
